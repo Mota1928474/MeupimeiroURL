@@ -1,0 +1,51 @@
+body{
+   background-color: mediumturquoise;
+}
+
+
+
+
+h1{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 500px;
+   color: aqua;
+
+}
+
+h2{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 400px;
+   color: blueviolet;
+
+
+}
+
+h3{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 300px;
+   color: darkred;
+
+
+}
+
+h4{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 200px;
+   color: cadetblue;
+
+
+}
+
+h5{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 100px;
+   color: crimson;
+
+
+}
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  color: darkorange;
+}
