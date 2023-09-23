@@ -1,51 +1,33 @@
+/* Meu Primeiro Comentario */
+/* Reset do CSS */
+*{
+   margin: 0; /* Margem */
+   padding: 0; /* Preenchimento */
+}
+
 body{
-   background-color: mediumturquoise;
+   height: ; /* Altura */
+   width: ; /* Largura */
+   display: flex; 
+   justify-content: center;
+   background: linear-gradient(#75e7f3 #adb3b4);
+   background-repeat: no-repeat;
 }
-
-
-
-
-h1{
-   font-family: 'Courier New', Courier, monospace;
-   font-size: 500px;
+.imagem{
+   display: flex;
+   justify-content: center;
+}
+.imagem img{
+   width: 170px;
+   border-radius: 200px;
+   margin-top: 30px;
+}
+.name{
+   margin-top: 10px;
+   display: flex;
+   justify-content: center;
+   font-size: 25px;
+   font-weight: 600;
    color: aqua;
-
-}
-
-h2{
-   font-family: 'Courier New', Courier, monospace;
-   font-size: 400px;
-   color: blueviolet;
-
-
-}
-
-h3{
-   font-family: 'Courier New', Courier, monospace;
-   font-size: 300px;
-   color: darkred;
-
-
-}
-
-h4{
-   font-family: 'Courier New', Courier, monospace;
-   font-size: 200px;
-   color: cadetblue;
-
-
-}
-
-h5{
-   font-family: 'Courier New', Courier, monospace;
-   font-size: 100px;
-   color: crimson;
-
-
-}
-
-p {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 50px;
-  color: darkorange;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
