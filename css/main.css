@@ -5,12 +5,13 @@
    padding: 0; /* Preenchimento */
 }
 
+/* Corpo do Site */
 body{
-   height: ; /* Altura */
-   width: ; /* Largura */
+   height: 100%; /* Altura */
+   width: 100%; /* Largura */
    display: flex; 
    justify-content: center;
-   background: linear-gradient(#75e7f3 #adb3b4);
+   background: linear-gradient(#7aeef8, #c7c8c8);
    background-repeat: no-repeat;
 }
 .imagem{
@@ -20,14 +21,85 @@ body{
 .imagem img{
    width: 170px;
    border-radius: 200px;
-   margin-top: 30px;
+   margin-top: 150px;
 }
 .name{
    margin-top: 10px;
    display: flex;
    justify-content: center;
-   font-size: 25px;
+   font-size: 32px;
    font-weight: 600;
-   color: aqua;
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: #308ff4;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/* Topico Redes Sociais */
+.redes-sociais{
+   margin-top: 10px;
+   display: flex;   /* organiza itens na mesma linha */
+   justify-content: center;
+   align-items: center;  /* alinhamento de itens */   
+}
+.icon, .email{
+   display: inline-block;
+   height: 35px;
+   width: 35px;
+   border-radius: 30px; /* bordas */
+   transition: all 0.4s ease-out; /* voltar na explicação */
+   box-shadow: 0 5px 5px rgba(0,0,0,.1);
+   cursor: pointer;
+   margin: 3px;
+   overflow: hidden;
+}
+.icon i, .email i{
+   display: inline-block;
+   width: 35px;
+   height: 35px;
+   line-height: 35px;
+   text-align: center;
+   font-size: 22px;
+   border-radius: 30px;
+   background-color: rgb(237, 237, 237);
+   color: #308ff4;
+   cursor: pointer;
+}
+.icon span a{
+   list-style: none;
+   font-family: Arial, Helvetica, sans-serif;
+   float: right;
+   margin-right: 23px;
+   font-weight: 100;
+   color: #308ff4;
+   line-height: 35px;
+   font-size: 17px;
+}
+.name-icon{
+   font-family: Arial, Helvetica, sans-serif;
+   margin-right: 40px;
+   float: right;
+   color: #c7c8c8; /* cor do icone */
+   font-weight: 100;
+   line-height: 35px;
+   font-size: 17px;
+}
+.icon:hover{
+   width: 150px;
+   background-color: rgb(237, 237, 237);
+   border-radius: 20px;
+}
+.icon:nth-child(1):hover i{
+   background: #030303;
+}
+.icon:nth-child(2):hover i{
+   background: blueviolet;
+}
+.icon:nth-child(3):hover i{
+   background: blue;
+}
+.icon:nth-child(4):hover i{
+   background: purple;
+}
+.email:hover i{
+   background: red;
+}
+
