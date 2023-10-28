@@ -187,12 +187,12 @@ body{
    box-shadow: 0 5px 5px rgba(0,0,0, 0.9);
    cursor: pointer;
 }
-#video{
+.video{
    padding: 10px;
    margin: auto;
    display: none;
 }
-#video.active{
+.video.active{
    display: block;
 }
 .rodape{
@@ -226,7 +226,7 @@ body{
    .item{
       height: 70px;
    }
-   #video{
+   .video{
       width: 330px;
    }
 }  /* Fim resolução 700px */
@@ -281,7 +281,7 @@ body{
       margin-top: 30px;
       padding: 20px;
    }
-   #video{
+   .video{
       height: 160px;
       width: 270px;
    }

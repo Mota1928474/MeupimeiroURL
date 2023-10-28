@@ -1,24 +1,27 @@
 // tres constantes para referenciar as ITEM nas Divs Projetos
-const Formulario = document.getElementById('Formulario');
-const Site = document.getElementById('Site');
-const MeuPortfolio = document.getElementById('MeuPortfolio');
+const album = document.getElementById('album');
+const casamentos = document.getElementById('casamentos');
+const buffet = document.getElementById('Buffet');
 
-const videoFormulario = document.querySelector('.videoFormulario');
-const videoSite = document.querySelector('.videoSite');
-const videoMeuPortfolio = document.querySelector('.videoMeuPortfolio');
+const videoalbum = document.querySelector('#videoAlbum');
+const videocasamentos = document.querySelector('#videocasamentos');
+const videoBuffet = document.querySelector('#videoBuffet');
 
 // evento de click
-Formulario.addEventListener('click',() =>{
-    Formulario.classList.toggle('active');
-    videoFormulario.classList.toggle('active');
+album.addEventListener('click',() =>{
+  album.classList.toggle('active');
+    videoalbum.classList.toggle('active');
 });
 
-Site.addEventListener('click',() =>{
-    Site.classList.toggle('active');
-    videoSite.classList.toggle('active');
+casamentos.addEventListener('click',() =>{
+    casamentos.classList.toggle('active');
+    videoC
+    
+    
+    asamentos.classList.toggle('active');
 })
 
-MeuPortfolio.addEventListener('click',() =>{
-    MeuPortfolio.classList.toggle('active');
-    MeuPortfolio.classList.toggle('active');
+buffet.addEventListener('click',() =>{
+    buffet.classList.toggle('active');
+    videoBuffet.classList.toggle('active');
 })
